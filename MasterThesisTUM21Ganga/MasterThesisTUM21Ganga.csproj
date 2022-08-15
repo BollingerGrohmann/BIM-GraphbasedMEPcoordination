@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{15AF13A3-7945-470C-859C-035CF0F72094}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MasterThesisTUM21Ganga</RootNamespace>
+    <AssemblyName>MasterThesisTUM21Ganga</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DynamoRevitDS">
+      <HintPath>..\..\..\..\..\Program Files\Autodesk\Revit 2021\AddIns\DynamoForRevit\Revit\DynamoRevitDS.dll</HintPath>
+    </Reference>
+    <Reference Include="DynamoServices, Version=2.6.1.8786, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\DynamoVisualProgramming.DynamoServices.2.6.1.8786\lib\net47\DynamoServices.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DynamoUnits, Version=2.6.1.8786, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\DynamoVisualProgramming.ZeroTouchLibrary.2.6.1.8786\lib\net47\DynamoUnits.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Bcl.AsyncInterfaces.5.0.0\lib\net461\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Neo4j.Driver, Version=4.3.67.1, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Neo4j.Driver.4.3.1\lib\netstandard2.0\Neo4j.Driver.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Neo4j.Driver.Simple, Version=4.3.67.1, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Neo4j.Driver.Simple.4.3.1\lib\netstandard2.0\Neo4j.Driver.Simple.dll</HintPath>
+    </Reference>
+    <Reference Include="ProtoGeometry, Version=2.6.0.8195, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\DynamoVisualProgramming.ZeroTouchLibrary.2.6.1.8786\lib\net47\ProtoGeometry.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="RevitAPI">
+      <HintPath>..\..\..\..\..\Program Files\Autodesk\Revit 2021\RevitAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="RevitAPIUI">
+      <HintPath>..\..\..\..\..\Program Files\Autodesk\Revit 2021\RevitAPIUI.dll</HintPath>
+    </Reference>
+    <Reference Include="RevitNodes">
+      <HintPath>..\..\..\..\..\Program Files\Autodesk\Revit 2021\AddIns\DynamoForRevit\Revit\RevitNodes.dll</HintPath>
+    </Reference>
+    <Reference Include="RevitServices">
+      <HintPath>..\..\..\..\..\Program Files\Autodesk\Revit 2021\AddIns\DynamoForRevit\Revit\RevitServices.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.4.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Runtime.CompilerServices.Unsafe.4.5.3\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GraphDBNeo4j.cs" />
+    <Compile Include="GetVoidObjectData.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VoidsApprovalinformation.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="pkg.json" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

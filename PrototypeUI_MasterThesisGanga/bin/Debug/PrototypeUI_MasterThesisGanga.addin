@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Assembly>PrototypeUI_MasterThesisGanga.dll</Assembly>
+    <ClientId>55d0097b-d7a2-4bb1-93fe-0c77248e494a</ClientId>
+    <FullClassName>PrototypeUI_MasterThesisGanga.Prototype_Main</FullClassName>
+    <Text>Prototype_Main</Text>
+    <Description>""</Description>
+    <VisibilityMode>AlwaysVisible</VisibilityMode>
+    <VendorId>ADSK</VendorId>
+    <VendorDescription>Autodesk, www.autodesk.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+	<AddIn Type="Application">
+		<Name> Application PrototypeUI_MasterThesisGanga</Name>
+		<Assembly>PrototypeUI_MasterThesisGanga.dll</Assembly>
+		<ClientId>bd9062ae-2f5f-4b8f-8ae9-f91c618ce2c5</ClientId>
+		<FullClassName>PrototypeUI_MasterThesisGanga.App</FullClassName>
+		<VendorId>ADSK</VendorId>
+		<VendorDescription>Autodesk, www.autodesk.com</VendorDescription>
+	</AddIn>
+</RevitAddIns>

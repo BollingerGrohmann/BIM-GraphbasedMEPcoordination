@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasterThesisTUM21Ganga", "MasterThesisTUM21Ganga.csproj", "{15AF13A3-7945-470C-859C-035CF0F72094}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrototypeUI_MasterThesisGanga", "..\PrototypeUI_MasterThesisGanga\PrototypeUI_MasterThesisGanga.csproj", "{4C5A46A2-47DD-4FF0-B967-2B8133B0806E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15AF13A3-7945-470C-859C-035CF0F72094}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15AF13A3-7945-470C-859C-035CF0F72094}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15AF13A3-7945-470C-859C-035CF0F72094}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15AF13A3-7945-470C-859C-035CF0F72094}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C5A46A2-47DD-4FF0-B967-2B8133B0806E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C5A46A2-47DD-4FF0-B967-2B8133B0806E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C5A46A2-47DD-4FF0-B967-2B8133B0806E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C5A46A2-47DD-4FF0-B967-2B8133B0806E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6949BD70-0885-42C7-A2E5-9CDFB12538E4}
+	EndGlobalSection
+EndGlobal

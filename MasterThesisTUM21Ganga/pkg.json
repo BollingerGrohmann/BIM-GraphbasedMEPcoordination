@@ -1,0 +1,20 @@
+{
+  "license": "",
+  "file_hash": null,
+  "name": "MasterThesisTUM21Ganga",
+  "version": "1.0.0",
+  "description": "MasterThesis 2021 @ CMS,TUM by Ganga Surendran Sanila",
+  "group": "",
+  "keywords": null,
+  "dependencies": [],
+  "contents": "",
+  "engine_version": "2.6.1.8786",
+  "engine": "dynamo",
+  "engine_metadata": "",
+  "site_url": "",
+  "repository_url": "",
+  "contains_binaries": true,
+  "node_libraries": [
+    "MasterThesisTUM21Ganga, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
